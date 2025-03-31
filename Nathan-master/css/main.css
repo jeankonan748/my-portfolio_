@@ -1876,6 +1876,9 @@ input::-moz-focus-inner {
   .header-nav-wrap .header-social li a {
     line-height: 36px;
   }
+  .header-social li a:hover i {
+    color: #0077b5;
+}
 
   .header-menu-toggle {
     display: block;
