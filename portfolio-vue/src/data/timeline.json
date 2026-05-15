@@ -1,0 +1,42 @@
+{
+  "experience": [
+    {
+      "period": "Janv 2023 - Mai 2024",
+      "company": "SCA INTER A",
+      "role": "Agent de saisie",
+      "description": "Responsable de la saisie dans la base de données des souscripteurs : en charge de l'enregistrement des clients et de la digitalisation de l'ensemble des ressources client au sein de l'entreprise."
+    },
+    {
+      "period": "Janv 2023 - Présent",
+      "company": "Google Developer Groups on Campus UVCI",
+      "role": "Organizer / Lead",
+      "description": "Leadership communautaire, organisation d'événements, vulgariser des technologies Google, mentorat & accompagnement, connexion avec l'écosystème Google."
+    }
+  ],
+  "education": [
+    {
+      "period": "Novembre 2024",
+      "school": "We.Code — Epitech",
+      "degree": "Formation certifiante DATA/IA (en cours)",
+      "description": "Programme We.Code, formation certifiante sur 6 mois mise en oeuvre par Epitech."
+    },
+    {
+      "period": "Octobre 2024",
+      "school": "Université Virtuelle de Côte d'Ivoire",
+      "degree": "Master 1",
+      "description": "Big Data Analytics."
+    },
+    {
+      "period": "Octobre 2021 - Septembre 2024",
+      "school": "Université Virtuelle de Côte d'Ivoire",
+      "degree": "Licence",
+      "description": "Informatique et Science du Numérique, spécialité Développement d'Applications et e-Service."
+    },
+    {
+      "period": "Août 2021",
+      "school": "Collège Saint-Exupéry de Port-Bouet",
+      "degree": "Baccalauréat D",
+      "description": ""
+    }
+  ]
+}

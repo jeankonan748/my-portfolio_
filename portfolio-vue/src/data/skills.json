@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Python",
+    "icon": "/images/Python.svg",
+    "category": "data",
+    "level": 85,
+    "description": "Développement de scripts Python pour automatiser des tâches et résoudre des problèmes complexes."
+  },
+  {
+    "name": "Pandas",
+    "icon": "/images/Pandas.svg",
+    "category": "data",
+    "level": 80,
+    "description": "Manipulation et analyse de données avec Pandas pour des projets de data science."
+  },
+  {
+    "name": "TensorFlow",
+    "icon": "/images/TensorFlow.svg",
+    "category": "ia",
+    "level": 70,
+    "description": "Développement de modèles d'apprentissage automatique avec TensorFlow pour des projets avancés d'IA."
+  },
+  {
+    "name": "Keras",
+    "icon": "/images/Keras.svg",
+    "category": "ia",
+    "level": 70,
+    "description": "Création de modèles d'intelligence artificielle avec Keras pour l'apprentissage profond."
+  },
+  {
+    "name": "MySQL",
+    "icon": "/images/MySQL.svg",
+    "category": "data",
+    "level": 75,
+    "description": "Gestion et optimisation de bases de données relationnelles avec MySQL pour des applications web dynamiques."
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "/images/PostgresSQL.svg",
+    "category": "data",
+    "level": 70,
+    "description": "Gestion de bases de données relationnelles avec PostgreSQL pour des applications fiables et scalables."
+  },
+  {
+    "name": "JavaScript",
+    "icon": "/images/JavaScript.svg",
+    "category": "web",
+    "level": 75,
+    "description": "Création d'interfaces interactives et dynamiques pour des sites web performants."
+  },
+  {
+    "name": "Vue.js",
+    "icon": "/images/Vue.js.svg",
+    "category": "web",
+    "level": 65,
+    "description": "Développement d'applications web réactives avec Vue.js pour des interfaces modulaires et dynamiques."
+  },
+  {
+    "name": "Laravel",
+    "icon": "/images/Laravel.svg",
+    "category": "web",
+    "level": 65,
+    "description": "Création de backends sécurisés et performants avec le framework PHP Laravel."
+  },
+  {
+    "name": "PHP",
+    "icon": "/images/PHP.svg",
+    "category": "web",
+    "level": 70,
+    "description": "Développement d'applications web en PHP pour des solutions personnalisées et évolutives."
+  },
+  {
+    "name": "TailwindCSS",
+    "icon": "/images/Tailwind CSS.svg",
+    "category": "web",
+    "level": 75,
+    "description": "Conception de sites web modernes et réactifs avec le framework CSS TailwindCSS."
+  },
+  {
+    "name": "Azure",
+    "icon": "/images/Azure.svg",
+    "category": "cloud",
+    "level": 60,
+    "description": "Utilisation de la plateforme cloud Azure pour héberger et gérer des applications web et des services."
+  },
+  {
+    "name": "Streamlit",
+    "icon": "/images/Streamlit.svg",
+    "category": "data",
+    "level": 72,
+    "description": "Création d'applications web interactives pour la visualisation de données en temps réel avec Streamlit."
+  },
+  {
+    "name": "Bash",
+    "icon": "/images/Bash.svg",
+    "category": "cloud",
+    "level": 65,
+    "description": "Automatisation de processus avec des scripts Bash pour gérer les tâches système efficacement."
+  },
+  {
+    "name": "WordPress",
+    "icon": "/images/WordPress.svg",
+    "category": "web",
+    "level": 70,
+    "description": "Création et gestion de sites web avec WordPress pour des solutions rapides et faciles à maintenir."
+  },
+  {
+    "name": "Trello",
+    "icon": "/images/Trello.svg",
+    "category": "tools",
+    "level": 80,
+    "description": "Gestion de projets et de tâches avec Trello pour améliorer la collaboration et l'organisation d'équipe."
+  }
+]

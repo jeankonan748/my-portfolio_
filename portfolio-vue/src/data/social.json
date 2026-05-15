@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Facebook",
+    "icon": "fab fa-facebook-f",
+    "url": "https://www.facebook.com/kouassijeannathanael.konan/"
+  },
+  {
+    "name": "Twitter",
+    "icon": "fab fa-twitter",
+    "url": "https://x.com/Jean_Kouassi_k"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "fab fa-linkedin",
+    "url": "https://www.linkedin.com/in/jean-konan"
+  }
+]

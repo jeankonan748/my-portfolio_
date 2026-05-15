@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-vue",
+  "description": "Portfolio personnel de Kouassi Jean Nathanaël — Data Scientist & Développeur Web",
+  "version": "1.0.0",
+  "author": "Kouassi Jean Nathanaël <jean.konan@epitech.eu>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.12"
+  }
+}

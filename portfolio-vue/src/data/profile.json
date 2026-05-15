@@ -1,0 +1,15 @@
+{
+  "name": "Kouassi Jean Nathanaël",
+  "nickname": "Nathan",
+  "roles": ["Data Analyst", "Data Scientist", "Développeur Web"],
+  "email": "jean.konan@epitech.eu",
+  "phone": "225-77-11-97-94",
+  "photo": "/images/Jean Kouassi.png",
+  "cv": "/CV_2025-04-24_KOUASSI JEAN NATHANAEL_KONAN.pdf",
+  "bio": {
+    "intro": "Je suis Kouassi Jean Nathanaël, passionné par les technologies du numérique, spécialisé en Data & Intelligence Artificielle. Actuellement en formation à Epitech dans le cadre du programme We.Code, je développe mon expertise en analyse de données, intelligence artificielle et développement full stack.",
+    "formation": "Titulaire d'une Licence en Informatique et Sciences du Numérique, spécialisée en Développement d'Applications et e-Services, je poursuis actuellement un Master 1 en Big Data Analytics.",
+    "realisations": "Lead du Google Developer Group (GDG) on Campus de l'UVCI, où j'encadre et forme une communauté tech. Développement d'une plateforme web facilitant la mise en relation entre artisans et clients en Côte d'Ivoire.",
+    "vision": "Je suis animé par la volonté d'utiliser les données et l'intelligence artificielle pour résoudre des problématiques complexes et développer des solutions technologiques à fort impact. Mon objectif est de contribuer activement à des projets innovants, notamment dans le domaine de la santé et des systèmes intelligents."
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "My Shop",
+    "category": "web",
+    "categoryLabel": "Développement Web",
+    "video": "/project/pro1.mp4",
+    "thumbnail": null,
+    "description": "Application web de gestion des produits et utilisateurs, réalisée en collaboration avec Beugré Didiane dans le cadre de notre formation We.Code à Epitech.",
+    "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    "github": null,
+    "demo": null
+  },
+  {
+    "id": 2,
+    "title": "Projet NLP",
+    "category": "ia",
+    "categoryLabel": "Data Science / IA",
+    "video": "/project/NLP_project.mp4",
+    "thumbnail": null,
+    "description": "Projet de traitement du langage naturel (NLP) — analyse et classification de textes à l'aide de modèles de machine learning.",
+    "technologies": ["Python", "TensorFlow", "Keras", "Pandas"],
+    "github": null,
+    "demo": null
+  }
+]
