@@ -30,8 +30,16 @@ jobs:
         working-directory: portfolio-vue
         run: npm run build
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: portfolio-vue/dist
+      - name: Copy dist to docs/
+        run: |
+          rm -rf docs
+          cp -r portfolio-vue/dist docs
+          touch docs/.nojekyll
+
+      - name: Commit and push docs/
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "Deploy: update docs/ from Vue build"
+          git push
