@@ -13,7 +13,7 @@
       <div class="column item-service" v-for="skill in skills" :key="skill.name" data-aos="fade-up">
         <div class="item-service__content">
           <h4 class="item-title">{{ skill.name }}</h4>
-          <img :src="skill.icon" :alt="`Icône ${skill.name}`" width="50" height="50">
+          <img :src="base + skill.icon.slice(1)" :alt="`Icône ${skill.name}`" width="50" height="50">
           <p>{{ skill.description }}</p>
         </div>
       </div>
@@ -23,4 +23,5 @@
 
 <script setup>
 defineProps({ skills: Array })
+const base = import.meta.env.BASE_URL
 </script>

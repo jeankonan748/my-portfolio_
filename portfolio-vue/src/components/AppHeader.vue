@@ -2,7 +2,7 @@
   <header class="s-header" :class="{ sticky: isSticky }">
     <div class="header-logo">
       <a class="site-logo" href="#top" @click.prevent="scrollTo('top')">
-        <img src="/images/Jean Kouassi.png" alt="Jean Kouassi">
+        <img :src="`${base}images/Jean Kouassi.png`" alt="Jean Kouassi">
       </a>
     </div>
 
@@ -30,6 +30,8 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+
+const base = import.meta.env.BASE_URL
 
 const props = defineProps({
   social: Array,

@@ -16,9 +16,9 @@
       >
         <div class="project-card__video-wrap">
           <video v-if="project.video" controls preload="metadata">
-            <source :src="project.video" type="video/mp4">
+            <source :src="base + project.video.slice(1)" type="video/mp4">
           </video>
-          <img v-else-if="project.thumbnail" :src="project.thumbnail" :alt="project.title">
+          <img v-else-if="project.thumbnail" :src="base + project.thumbnail.slice(1)" :alt="project.title">
           <div class="project-card__overlay">
             <span class="project-card__category">{{ project.categoryLabel }}</span>
           </div>
@@ -50,6 +50,7 @@
 
 <script setup>
 defineProps({ projects: Array })
+const base = import.meta.env.BASE_URL
 </script>
 
 <style scoped>

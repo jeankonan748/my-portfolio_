@@ -104,7 +104,18 @@ a:active {
  * # typography & general theme styles
  * 
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 500;
   font-style: normal;
@@ -113,65 +124,95 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-rendering: optimizeLegibility;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
   margin-top: 6rem;
   margin-bottom: 1.6rem;
 }
 
 @media screen and (max-width:600px) {
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4 {
     margin-top: 6rem;
   }
 }
 
-h5, .h5, h6, .h6 {
+h5,
+.h5,
+h6,
+.h6 {
   margin-top: 4.8rem;
   margin-bottom: 1.2rem;
 }
 
 @media screen and (max-width:600px) {
-  h5, .h5, h6, .h6 {
+
+  h5,
+  .h5,
+  h6,
+  .h6 {
     margin-top: 4rem;
     margin-bottom: 0.8rem;
   }
 
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 3.6rem;
   line-height: 1.222;
   letter-spacing: -.1rem;
 }
 
 @media screen and (max-width:600px) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 3.3rem;
     letter-spacing: -.07rem;
   }
 
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 3rem;
   line-height: 1.2;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 2.4rem;
   line-height: 1.1667;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 2.1rem;
   line-height: 1.286;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
@@ -303,7 +344,7 @@ code {
   border-radius: 3px;
 }
 
-pre > code {
+pre>code {
   display: block;
   white-space: pre;
   line-height: 2;
@@ -311,7 +352,7 @@ pre > code {
   margin: 0;
 }
 
-pre.prettyprint > code {
+pre.prettyprint>code {
   border: none;
 }
 
@@ -713,15 +754,15 @@ input[type="radio"] {
   display: inline;
 }
 
-label > .label-text {
+label>.label-text {
   display: inline-block;
   margin-left: 1rem;
   font-family: "Roboto", sans-serif;
   line-height: inherit;
 }
 
-label > input[type="checkbox"],
-label > input[type="radio"] {
+label>input[type="checkbox"],
+label>input[type="radio"] {
   margin: 0;
   position: relative;
   top: .2rem;
@@ -777,11 +818,9 @@ label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus
-input:-webkit-autofill,
+input:-webkit-autofill:focus input:-webkit-autofill,
 textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
@@ -945,17 +984,17 @@ input::-moz-focus-inner {
   margin: 0;
 }
 
-.lining dt + dt:before,
-.lining dd + dt:before {
+.lining dt+dt:before,
+.lining dd+dt:before {
   content: "\A";
   white-space: pre;
 }
 
-.lining dd + dd:before {
+.lining dd+dd:before {
   content: ", ";
 }
 
-.lining dd + dd:before {
+.lining dd+dd:before {
   content: ", ";
 }
 
@@ -971,7 +1010,7 @@ input::-moz-focus-inner {
   counter-reset: definitions;
 }
 
-.dictionary-style dt + dt:before {
+.dictionary-style dt+dt:before {
   content: ", ";
   margin-left: -0.2em;
 }
@@ -1876,9 +1915,10 @@ input::-moz-focus-inner {
   .header-nav-wrap .header-social li a {
     line-height: 36px;
   }
+
   .header-social li a:hover i {
     color: #0077b5;
-}
+  }
 
   .header-menu-toggle {
     display: block;
@@ -2179,11 +2219,11 @@ input::-moz-focus-inner {
   max-width: 1140px;
 }
 
-.s-about > [class*="about-"] {
+.s-about>[class*="about-"] {
   margin-bottom: 15.2rem;
 }
 
-.s-about > [class*="about-"]:last-child {
+.s-about>[class*="about-"]:last-child {
   margin-bottom: 0;
 }
 
@@ -2444,6 +2484,7 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:600px) {
+
   .about-me__buttons .column:first-child,
   .about-experience__timeline .column:first-child {
     padding-right: 10px;
@@ -2473,7 +2514,7 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:400px) {
-  .s-about > [class*="about-"] {
+  .s-about>[class*="about-"] {
     margin-bottom: 14rem;
   }
 
@@ -3617,4 +3658,3 @@ html[data-useragent*='rv:11.0'] .ss-go-top::before,
 html[data-useragent*='rv:11.0'] .ss-go-top::after {
   display: none;
 }
-
