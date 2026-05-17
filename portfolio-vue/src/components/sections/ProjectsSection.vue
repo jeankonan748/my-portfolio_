@@ -15,7 +15,12 @@
         data-aos="fade-up"
       >
         <div class="project-card__video-wrap">
-          <video v-if="project.video" controls preload="metadata">
+          <video
+            v-if="project.video"
+            controls
+            preload="metadata"
+            :poster="project.poster ? base + project.poster.slice(1) : undefined"
+          >
             <source :src="base + project.video.slice(1)" type="video/mp4">
           </video>
           <img v-else-if="project.thumbnail" :src="base + project.thumbnail.slice(1)" :alt="project.title">
