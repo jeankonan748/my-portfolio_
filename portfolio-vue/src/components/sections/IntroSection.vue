@@ -10,6 +10,12 @@
         </h1>
       </div>
 
+      <div class="intro-buttons">
+        <a :href="profile.cv" download class="btn btn--primary btn--large">
+          Télécharger CV
+        </a>
+      </div>
+
       <div class="intro-scroll">
         <a href="#about" class="intro-scroll-link" @click.prevent="scrollTo('about')">
           Défilez vers le bas
