@@ -13,5 +13,10 @@
     "name": "LinkedIn",
     "icon": "fab fa-linkedin",
     "url": "https://www.linkedin.com/in/jean-konan"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github",
+    "url": "https://github.com/Jean-Konan"
   }
 ]
